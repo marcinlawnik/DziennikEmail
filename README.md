@@ -25,7 +25,7 @@ Reaktywacja identycznego projektu związanego ze starym dziennikiem w EKOSie.
 ## Credits
 
 Marcin Lawniczak <marcin@lawniczak.me> <br/>
-Kuba Marszałkiewicz <kuba_marszalkiewicz@ekos.edu.pl>
+Kuba Marszalkiewicz <kuba_marszalkiewicz@ekos.edu.pl>
 
 ## License
 
