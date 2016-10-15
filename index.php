@@ -55,3 +55,8 @@ curl_setopt($ch, CURLOPT_URL, 'https://dziennik.ekos.edu.pl/student/semesters/41
 $result = curl_exec($ch);
 
 echo $result;
+
+//wyloguj
+
+curl_setopt($ch, CURLOPT_URL, 'https://dziennik.ekos.edu.pl/log_out?locale=pl');
+$result = curl_exec($ch);
