@@ -21,8 +21,8 @@ curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 //Set timeout
 curl_setopt($ch, CURLOPT_TIMEOUT, 60);
 //Ignore SSL
-//curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
-//curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0);
+curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0);
 //Add SSL certificates
 //curl_setopt($ch, CURLOPT_CAINFO, 'cacert.pem');
 
