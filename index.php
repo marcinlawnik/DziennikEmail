@@ -36,7 +36,7 @@ $token = $html->find('input[name=authenticity_token]');
 foreach ($token as $singleToken) {
    $tokenFinal =$singleToken->value;
 }
-include haslo.php;
+include 'haslo.php';
 
 //Post do zalogowania
 $post = 'commit=' . '&authenticity_token=' . $tokenFinal . '&login=' . $username . '&password=' . $password . '&utf8=✓';
