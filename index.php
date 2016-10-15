@@ -24,7 +24,7 @@ curl_setopt($ch, CURLOPT_TIMEOUT, 60);
 //curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
 //curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0);
 //Add SSL certificates
-curl_setopt($ch, CURLOPT_CAINFO, 'cacert.pem');
+//curl_setopt($ch, CURLOPT_CAINFO, 'cacert.pem');
 
 
 //Pobierz stronę z tokenem
