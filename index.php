@@ -20,6 +20,9 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 //Set timeout
 curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+//Ignore SSL
+curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0);
 
 
 //Pobierz stronę z tokenem
@@ -28,10 +31,6 @@ curl_setopt($ch, CURLOPT_URL, 'https://dziennik.ekos.edu.pl');
 //curl_setopt($ch, CURLOPT_REFERER, 'https://92.55.225.11/dbviewer/login.php');
 //Execute
 $result = curl_exec($ch);
-
-echo $result;
-
-die();
 
 
 //GET auth token
