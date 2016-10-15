@@ -29,6 +29,9 @@ curl_setopt($ch, CURLOPT_URL, 'https://dziennik.ekos.edu.pl');
 //Execute
 $result = curl_exec($ch);
 
+echo $result;
+die ();
+
 //GET auth token
 $html=str_get_html($result);
 //authenticity_token
